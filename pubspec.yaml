@@ -1,0 +1,56 @@
+name: ten_reps
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  flutter_riverpod: ^2.4.9
+  connectivity_plus: ^5.0.2
+  shared_preferences: ^2.2.2
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  equatable: ^2.0.5
+  table_calendar: ^3.0.9
+  flutter_svg_provider: ^1.0.7
+  intl: ^0.18.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RobotoRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoRomanRegular.ttf
+          weight: 400
+    - family: Monoton
+      fonts: 
+        - asset: assets/fonts/MonotonRegular.ttf
+          weight: 400
+    - family: Pontano Sans
+      fonts: 
+        - asset: assets/fonts/PontanoSansRegular.ttf
+          weight: 400
+    - family: Alata
+      fonts: 
+        - asset: assets/fonts/AlataRegular.ttf
+          weight: 400
+    - family: Actor
+      fonts: 
+        - asset: assets/fonts/ActorRegular.ttf
+          weight: 400
+    - family: Offside
+      fonts: 
+        - asset: assets/fonts/OffsideRegular.ttf
+          weight: 400
